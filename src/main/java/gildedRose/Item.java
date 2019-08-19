@@ -8,10 +8,17 @@ public class Item {
 
     public int quality;
 
+    public ItemType getItemType() {
+        return itemType;
+    }
+
+    private ItemType itemType;
+
     public Item(String name, int sellIn, int quality) {
         this.name = name;
         this.sellIn = sellIn;
         this.quality = quality;
+        this.itemType = ItemFactory.getItem(name);
     }
 
     public void qualitySmallerThan50() {
