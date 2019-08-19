@@ -1,6 +1,6 @@
 package gildedRose;
 
-public class AgedItem implements ItemUpdate {
+public class AgedItem implements ItemType {
 
     @Override
     public void update(Item item) {

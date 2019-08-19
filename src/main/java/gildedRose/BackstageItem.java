@@ -1,6 +1,6 @@
 package gildedRose;
 
-public class BackstageItem implements ItemUpdate {
+public class BackstageItem implements ItemType {
     @Override
     public void update(Item item) {
         item.qualitySmallerThan50();

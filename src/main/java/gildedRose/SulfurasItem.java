@@ -1,6 +1,6 @@
 package gildedRose;
 
-public class SulfurasItem implements ItemUpdate {
+public class SulfurasItem implements ItemType {
     @Override
     public void update(Item item) {
 

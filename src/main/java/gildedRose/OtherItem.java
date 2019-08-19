@@ -1,6 +1,6 @@
 package gildedRose;
 
-public class OtherItem implements ItemUpdate {
+public class OtherItem implements ItemType {
     @Override
     public void update(Item item) {
         if (item.quality > 0) {
