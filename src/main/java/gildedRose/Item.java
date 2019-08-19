@@ -14,6 +14,12 @@ public class Item {
         this.quality = quality;
     }
 
+    public void qualitySmallerThan50() {
+        if (quality < 50) {
+            quality += 1;
+        }
+    }
+
    @Override
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
